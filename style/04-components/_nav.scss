@@ -1,0 +1,32 @@
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  .nav-links ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  }
+  .nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    transform: translateX(-44px);
+  }
+
+  .nav-btn button {
+    width: 150px;
+    padding: 12px 24px 11px 25px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+}
