@@ -1,46 +1,77 @@
 @import "./02-generic/generic";
 @import "./04-components/nav";
 @import "./04-components/header";
+@import "./04-components/publication";
 
-.publication {
-  height: 300px;
+.feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 500px;
+  .feature-1 {
+    background-color: black;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-2 {
+    background-color: #f2f2f2;
+    height: 450px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+  }
+  .feature-3 {
+    background-color: #fff;
+    height: 450px;
+    display: flex;
+    align-items: center;
+  }
+  .feature-4 {
+    background-color: black;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-.publication-wrapper {
+.feature-1-img {
+  background-color: #fff;
+  padding: 20px 17px 25px 25px;
+  padding-bottom: 30px;
+}
+.feature-2-content,
+.feature-3-content {
+  margin-left: 10%;
+  height: auto;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  width: 70%;
-  height: 90%;
-  margin: auto;
-  // margin: 50px auto;
   h4 {
     font-size: 24px;
     font-weight: bold;
-    // margin-bottom: 30px;
   }
   h5 {
-    font-size: 20px;
     line-height: 1.41;
-    width: 60%;
-    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: normal;
   }
-}
-.publication-boxes {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
   button {
-    width: 90px;
-    // padding: 12px 24px 12px 24px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-    background-color: #000000;
-    color: white;
-    outline: none;
+    width: 180px;
+    height: 50px;
+    margin: 24px 257.8px 0 0;
+    padding: 18px 16.2px 17px 17px;
+    border-radius: 5px;
+    border: solid 1px #000000;
     cursor: pointer;
   }
+}
+.feature-3-btn {
+  background-color: #fff;
+}
+.feature-4-img {
+  background-color: #525252;
+  padding: 20px 17px 25px 25px;
 }

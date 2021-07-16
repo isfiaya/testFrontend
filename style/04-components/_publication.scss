@@ -1,0 +1,43 @@
+.publication {
+  height: 300px;
+}
+.publication-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  margin-top: 30px;
+  // margin: 50px auto;
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    // margin-bottom: 30px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 1.41;
+    width: 60%;
+    text-align: center;
+    font-weight: normal;
+  }
+}
+.publication-boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    width: 90px;
+    // padding: 12px 24px 12px 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+}

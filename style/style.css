@@ -129,6 +129,7 @@ header .header-center button {
   width: 70%;
   height: 90%;
   margin: auto;
+  margin-top: 30px;
 }
 
 .publication-wrapper h4 {
@@ -165,5 +166,119 @@ header .header-center button {
   color: white;
   outline: none;
   cursor: pointer;
+}
+
+.feature {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  height: 500px;
+}
+
+.feature .feature-1 {
+  background-color: black;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature .feature-2 {
+  background-color: #f2f2f2;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature .feature-3 {
+  background-color: #fff;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature .feature-4 {
+  background-color: black;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-1-img {
+  background-color: #fff;
+  padding: 20px 17px 25px 25px;
+  padding-bottom: 30px;
+}
+
+.feature-2-content,
+.feature-3-content {
+  margin-left: 10%;
+  height: auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.feature-2-content h4,
+.feature-3-content h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feature-2-content h5,
+.feature-3-content h5 {
+  line-height: 1.41;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.feature-2-content button,
+.feature-3-content button {
+  width: 180px;
+  height: 50px;
+  margin: 24px 257.8px 0 0;
+  padding: 18px 16.2px 17px 17px;
+  border-radius: 5px;
+  border: solid 1px #000000;
+  cursor: pointer;
+}
+
+.feature-3-btn {
+  background-color: #fff;
+}
+
+.feature-4-img {
+  background-color: #525252;
+  padding: 20px 17px 25px 25px;
 }
 /*# sourceMappingURL=style.css.map */
