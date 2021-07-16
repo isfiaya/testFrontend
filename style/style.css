@@ -47,6 +47,7 @@ nav .nav-btn button {
   background-color: #000000;
   color: white;
   outline: none;
+  border: none;
   cursor: pointer;
 }
 
@@ -91,6 +92,7 @@ header .header-center button {
   outline: none;
   cursor: pointer;
   margin-top: 30px;
+  border: none;
 }
 
 .hero_image-left {
@@ -105,5 +107,63 @@ header .header-center button {
   bottom: 50px;
   right: 0;
   width: 25%;
+}
+
+.publication {
+  height: 300px;
+}
+
+.publication-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  height: 90%;
+  margin: auto;
+}
+
+.publication-wrapper h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.publication-wrapper h5 {
+  font-size: 20px;
+  line-height: 1.41;
+  width: 60%;
+  text-align: center;
+  font-weight: normal;
+}
+
+.publication-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.publication-boxes button {
+  width: 90px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  outline: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
